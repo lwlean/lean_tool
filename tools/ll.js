@@ -12,7 +12,6 @@ function list_dic() {
     const findName = args.f;
     var err_name = '';
     var blackFileArr = blackFile['black_file'];
-    console.log('blackfile:' + blackFileArr);
     try {
         // 增加读取参数
         var currentDic = './';
