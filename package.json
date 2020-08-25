@@ -7,9 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "ll": "./ll.js"
+    "ll": "./tools/ll.js"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "color": "^3.1.2",
+    "colors": "^1.4.0",
+    "yargs": "^15.4.1"
+  }
 }
