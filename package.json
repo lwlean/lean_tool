@@ -7,8 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "ll": "./tools/ll.js",
-    "j": "./tools/cd.js"
+    "ll": "./tools/ll.js"
   },
   "author": "",
   "license": "ISC",
