@@ -11,9 +11,14 @@
     "l": "./tools/ll.js",
     "ls": "./tools/ll.js",
     "jj": "./tools/cd.js",
-    "pwd": "./tools/pwd.js"
+    "pwd": "./tools/pwd.js",
+    "zhihu": "./tools/zhihu.js",
+    "baidu": "./tools/baidu.js"
   },
-  "author": "",
+  "author": {
+    "name": "lilongwei",
+    "email": "lwlean@163.com"
+  },
   "license": "ISC",
   "dependencies": {
     "color": "^3.1.2",
