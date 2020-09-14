@@ -4,7 +4,8 @@ const searchDic = {
     zhihu: 'https://www.zhihu.com/search?q=',
     baidu: 'https://www.baidu.com/s?wd=',
     weibo: 'https://s.weibo.com/weibo?q=',
-    npmjs: 'https://www.npmjs.com/search?q='
+    npmjs: 'https://www.npmjs.com/search?q=',
+    github: 'https://www.github.com/search?q='
 }
 
 const search = (site, param) => {

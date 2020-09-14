@@ -13,6 +13,7 @@
     "jj": "./tools/cd.js",
     "pwd": "./tools/pwd.js",
     "zhihu": "./tools/zhihu.js",
+    "github": "./tools/github.js",
     "baidu": "./tools/baidu.js"
   },
   "author": {
