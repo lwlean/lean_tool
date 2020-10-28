@@ -15,7 +15,8 @@
     "zhihu": "./tools/zhihu.js",
     "github": "./tools/github.js",
     "baidu": "./tools/baidu.js",
-    "weibo": "./tools/weibo.js"
+    "weibo": "./tools/weibo.js",
+    "npmjs": "./tools/npmjs.js"
   },
   "author": {
     "name": "lilongwei",
