@@ -1,4 +1,5 @@
 const { exec } = require('child_process');
+const { profileEnd } = require('console');
 
 const searchDic = {
     zhihu: 'https://www.zhihu.com/search?q=',
@@ -11,14 +12,20 @@ const searchDic = {
 const search = (site, param) => {
     if (param === undefined || param === '' || param === null) return;
     if (process.platform !== 'win32') return;
-    let url = searchDic[site];
+    const url = searchDic[site];
     if (url === undefined || url === null) return;
-    exec('chrome ' + url + param, (err, stdout, stderr) => {
-        if (err) {
-            console.log(err);
-        }
+    let cmd = isContainChromePath() ? 'chrome ' : 'start ';
+    exec(cmd + url + param, (err, stdout, stderr) => {
+        if (err) console.log(err);
+        if (stderr) console.log(stderr);
         console.log(stdout);
     });
-} 
+}
+
+const isContainChromePath = () => {
+    return process.env.Path.split(';').some((param, index, arr) => {
+        return param.indexOf('Chrome') > -1
+    })
+}
 
 module.exports = search;
