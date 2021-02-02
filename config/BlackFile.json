@@ -1,1 +1,1 @@
-{"black_file":["Config.Msi","System Volume Information","pagefile.sys","hiberfil.sys","swapfile.sys","PerfLogs","CSC","","","","","","","","","","","","","","ElevatedDiagnostics","msdtadmin","Packages","WindowsHolographicDevices"]}
+{"black_file":["Config.Msi","System Volume Information","pagefile.sys","hiberfil.sys","swapfile.sys","PerfLogs","CSC","","","","","","","","","","","","","","ElevatedDiagnostics","msdtadmin","Packages","WindowsHolographicDevices","diagerr.xml","diagwrn.xml","InfusedApps","LiveKernelReports","MEMORY.DMP"]}

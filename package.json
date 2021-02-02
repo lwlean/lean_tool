@@ -17,6 +17,7 @@
     "baidu": "./tools/baidu.js",
     "weibo": "./tools/weibo.js",
     "npmjs": "./tools/npmjs.js",
+    "bing": "./tools/bing.js",
     "ns": "./tools/ns.js"
   },
   "author": {
